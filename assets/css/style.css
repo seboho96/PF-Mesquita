@@ -52,7 +52,7 @@ body {
     background-color: transparent;
     color: #000000; /* Text color */
     margin-right: 5px;
-    height 20px;
+    height: 20px;
     line-height: 20px;
     font-size: 1em;
   }
@@ -99,7 +99,7 @@ body {
     padding: 20px; /* Add some padding */
     border-radius: 10px; /* Rounded corners */
     margin-top: 80px;
-    font-size: 40px; /
+    font-size: 40px; 
     color: #333333; 
     font-weight: bold; /* Make text bold */
     font-family: Arial, sans-serif;  
@@ -123,7 +123,7 @@ body {
   .invisible-box {
     display: inline-block; /* Display the boxes as inline blocks */
     width: 200px; 
-    margin: 20px; /
+    margin: 20px; 
   }
   
   .furniture-item {
@@ -172,7 +172,7 @@ body {
     color: #fff; 
     text-align: center;
     padding: 10px; /* Padding around the content */
-    margin-top: 100%
+    margin-top: 60%
 }
 
 footer a {
