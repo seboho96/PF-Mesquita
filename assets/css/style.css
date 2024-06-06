@@ -35,7 +35,7 @@ body {
     margin: 0 10px;
   }
   
-.menu div a:hover {
+  .menu div a:hover {
     opacity: 0.7; /* Reduce opacity on hover to create a slight shade effect */
   }
 
@@ -79,17 +79,23 @@ body {
     opacity: 0.7;
   }
 
-  main{
+  main {
     padding-top: 90px;
   }
   
   .message-box {
     background-color: #ffffff;
-    padding: 5px;
+    padding: 10px;
     max-width: 120%; /* Calculate maximum width */
     text-align: center;
     margin: 0 auto;
-    margin-top: 80px
+    margin-top: 80px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
   }
   
   .explore-message {
@@ -116,8 +122,9 @@ body {
     color:#333333;
   }
 
-  .legend-link :hover {
+  .legend-link:hover {
     opacity: 0.7;
+    text-decoration: none;
   }
 
   .invisible-box {
@@ -138,14 +145,14 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 10px;
-    border: none
+    border: none;
     }
   
-  .furniture-item p {
-    margin-top: 10px;
-    font-size: 16px;
-    font-weight: bold;
-  }
+    .furniture-item p {
+      margin-top: 10px;
+      font-size: 16px;
+      font-weight: bold;
+    }
   
   .chair {
     background-image: url('../images/chairs.jpg');
@@ -167,7 +174,7 @@ body {
     background-image: url('../images/desks.jpg');
   }
   
-  footer {
+footer {
     background-color: #333;
     color: #fff; 
     text-align: center;
@@ -177,15 +184,15 @@ body {
 
 footer a {
     color: #fff; 
-    text-decoration: none; /* Remove underline from links */
     margin-right: 20px; /* Adjust space between links */
+    text-decoration: none;
 }
 
-footer a:hover {
+.footer a:hover {
     opacity: 0.7; /* Reduce opacity on hover for a slight shade effect */
 }
 
-.form-title{
+.form-title {
   text-align: center;
   margin-top: 80px;
   margin-bottom: 80px;
