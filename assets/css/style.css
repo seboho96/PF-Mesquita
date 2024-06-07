@@ -17,6 +17,7 @@ body {
     padding: 15px 50px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     z-index: 1000; /* Set a high z-index to ensure the menu appears above other content */
+    min-height: 75px;
   }
 
   .menu div {
@@ -249,4 +250,34 @@ input[type="submit"]:hover {
 
 textarea {
   font-family: Arial, sans-serif; /* Ensure the text area uses the same font */
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .menu div a {
+    color: red; 
+    text-decoration: none; /* Remove the underline from links */
+    margin: 0 10px;
+  }
+
+  .linkedin-icon {
+    display: none;
+  }
+
+  .home-link{
+    min-width: 75px;
+  }
+  .home-text {
+    display: none;
+  }
+
+  .home-icon {
+    background-image: url('../images/brand-linkedin.png'); /* Path to LinkedIn icon */
+    background-size: cover; /* Ensure the icon covers the entire area */
+    min-width: 45px;
+  }
+
+  form.search-form{
+    display: none;
+  }
 }
