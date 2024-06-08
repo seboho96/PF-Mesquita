@@ -252,32 +252,79 @@ textarea {
   font-family: Arial, sans-serif; /* Ensure the text area uses the same font */
 }
 
+.menu.menu-toggle {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-  .menu div a {
-    color: red; 
-    text-decoration: none; /* Remove the underline from links */
-    margin: 0 10px;
-  }
+  .menu {
+    padding: 15px 20px;
+}
 
-  .linkedin-icon {
+.menu div {
+    margin-right: 20px;
+}
+
+.menu div a {
+    margin: 0 5px;
+}
+
+.linkedin-icon {
     display: none;
-  }
+}
 
-  .home-link{
+.home-link {
     min-width: 75px;
-  }
-  .home-text {
-    display: none;
-  }
+}
 
-  .home-icon {
-    background-image: url('../images/brand-linkedin.png'); /* Path to LinkedIn icon */
-    background-size: cover; /* Ensure the icon covers the entire area */
-    min-width: 45px;
-  }
-
-  form.search-form{
+.search-form {
     display: none;
-  }
+}
+
+.menu-toggle {
+    display: block;
+}
+
+.menu-items {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-items.active {
+    display: flex;
+}
+
+.menu-items div {
+    margin: 10px 0;
+}
+
+.explore-message {
+    font-size: 24px;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+.invisible-box {
+    width: 100px;
+}
+
+.furniture-item {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+}
+
+footer {
+    margin-top: 30%;
+}
 }
