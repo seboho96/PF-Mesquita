@@ -20,6 +20,10 @@ body {
     min-height: 75px;
   }
 
+  .menu-toggle {
+    display: none;
+}
+
   .menu div {
     display: flex;
     align-items: center; /*experiment*/
@@ -197,6 +201,7 @@ footer a {
   text-align: center;
   margin-top: 80px;
   margin-bottom: 80px;
+  padding: 30px;
 }
 /* Styles for form */
 #contact-form {
@@ -261,51 +266,74 @@ textarea {
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   .menu {
+    display: flex;
+    justify-content: start;
     padding: 15px 20px;
+    width: 100%;
 }
 
-.menu div {
-    margin-right: 20px;
-}
-
-.menu div a {
-    margin: 0 5px;
+.menu div{
+  padding: 20px;
+  margin-right: 0;
 }
 
 .linkedin-icon {
     display: none;
 }
 
-.home-link {
-    min-width: 75px;
-}
-
 .search-form {
     display: none;
+}
+
+button{
+  font-size: 30px;
+  background-color: #ffffff00;
+  border: solid 1px transparent;
+}
+
+button:hover{
+  border: solid 1px #c4c4c488;
+  border-radius: 5px;
 }
 
 .menu-toggle {
     display: block;
 }
 
-.menu-items {
+.menu-items-desktop:not(.active){
     display: none;
+}
+
+.menu-items-desktop.active {
+    display: flex;
     flex-direction: column;
     width: 100%;
-    text-align: center;
-    background-color: #fff;
+    height: 500px;
+    background-color: #eae7e7e8;
     position: absolute;
     top: 60px;
     left: 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+    font-weight: bold;
 }
 
-.menu-items.active {
-    display: flex;
+.menu-items-desktop.active div {
+  width: 100%;
 }
 
-.menu-items div {
-    margin: 10px 0;
+.menu-items-desktop.active div a:not(.linkedin-icon){
+  display: flex;
+  width: 100%;
+  justify-self: center;
+}
+
+/* .menu-items-desktop.active div a:hover{
+  background-color: #453838;
+} */
+
+.menu div a:hover{
+  opacity: 0.7;
 }
 
 .explore-message {
