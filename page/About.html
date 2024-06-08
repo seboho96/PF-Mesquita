@@ -4,10 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
+<header>
+    <nav class="menu">
+        <button class="menu-toggle" aria-label="Toggle menu" role="button" tabindex="0" onclick={myfunction()}>&#9776</button> 
+        <div class="menu-items-desktop">
+            <div class="home-link"><a href="../index.html" aria-label="Home">Home</a></div>
+            <div class="services-link"><a href="./Services.html" aria-label="Services">Services</a></div>
+            <div class="about-link"><a href="./About.html" aria-label="About">About</a></div>
+            <div class="contact-link"><a href="./Contacts.html" aria-label="Contact Us">Contact Us</a></div>
+            <div class="search-icon">
+                <form class="search-form">
+                    <input type="text" placeholder="Search" class="search-input">
+                    <button type="submit" class="search-button" aria-label="Search">&#128269;</button>
+                </form>
+            </div>
+            <div>
+                <a href="https://www.linkedin.com/in/oliveira-gerson-9ba523203/" title="Connect with me" class="linkedin-icon" target="_blank" aria-label="LinkedIn"></a>
+            </div>
+        </div>   
+    </nav>
+</header>
 <body>
-    
-
+    <script src="../js/script.js"></script>
 </body>
 </html>
