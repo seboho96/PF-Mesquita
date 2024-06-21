@@ -75,7 +75,7 @@ body {
   right: 20px;
   width: 40px;
   height: 40px;
-  background-image: url("../assets/images/brand-linkedin.png"); /* Path to LinkedIn icon */
+  background-image: url("../images/brand-linkedin.png"); /* Path to LinkedIn icon */
   background-size: cover; /* Ensure the icon covers the entire area */
 }
 .linkedin-icon:hover {
@@ -159,19 +159,19 @@ main {
   font-weight: bold;
 }
 .furniture-item.chair {
-  background-image: url("../assets/images/chairs.jpg");
+  background-image: url("../images/chairs.jpg");
 }
 .furniture-item.table {
-  background-image: url("../assets/images/tables.jpg");
+  background-image: url("../images/tables.jpg");
 }
 .furniture-item.closet {
-  background-image: url("../assets/images/closet.jpg");
+  background-image: url("../images/closet.jpg");
 }
 .furniture-item.frame {
-  background-image: url("../assets/images/frames.jpg");
+  background-image: url("../images/frames.jpg");
 }
 .furniture-item.desk {
-  background-image: url("../assets/images/desks.jpg");
+  background-image: url("../images/desks.jpg");
 }
 
 /* Footer */
@@ -317,4 +317,4 @@ footer a:hover {
   }
 }
 
-/*# sourceMappingURL=probe.css.map */
+/*# sourceMappingURL=style.css.map */
