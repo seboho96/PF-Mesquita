@@ -3,30 +3,54 @@
 <head> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+    <title>About Us</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
-<header>
-    <nav class="menu">
-        <button class="menu-toggle" aria-label="Toggle menu" role="button" tabindex="0" onclick={myfunction()}>&#9776</button> 
-        <div class="menu-items-desktop">
-            <div class="home-link"><a href="../index.html" aria-label="Home">Home</a></div>
-            <div class="services-link"><a href="./Services.html" aria-label="Services">Services</a></div>
-            <div class="about-link"><a href="./About.html" aria-label="About">About</a></div>
-            <div class="contact-link"><a href="./Contacts.html" aria-label="Contact Us">Contact Us</a></div>
-            <div class="search-icon">
-                <form class="search-form">
-                    <input type="text" placeholder="Search" class="search-input">
-                    <button type="submit" class="search-button" aria-label="Search">&#128269;</button>
-                </form>
-            </div>
-            <div>
-                <a href="https://www.linkedin.com/in/oliveira-gerson-9ba523203/" title="Connect with me" class="linkedin-icon" target="_blank" aria-label="LinkedIn"></a>
-            </div>
-        </div>   
-    </nav>
-</header>
 <body>
+    <header>
+        <nav class="menu">
+            <button class="menu-toggle" aria-label="Toggle menu" role="button" tabindex="0" onclick="myfunction()">&#9776;</button> 
+            <div class="menu-items-desktop">
+                <div class="home-link"><a href="../index.html" aria-label="Home">Home</a></div>
+                <div class="services-link"><a href="./Services.html" aria-label="Services">Services</a></div>
+                <div class="about-link active"><a href="./About.html" aria-label="About">About</a></div>
+                <div class="contact-link"><a href="./Contacts.html" aria-label="Contact Us">Contact Us</a></div>
+                <div class="search-icon">
+                    <form class="search-form">
+                        <input type="text" placeholder="Search" class="search-input">
+                        <button type="submit" class="search-button" aria-label="Search">&#128269;</button>
+                    </form>
+                </div>
+                <div>
+                    <a href="https://www.linkedin.com/in/oliveira-gerson-9ba523203/" title="Connect with me" class="linkedin-icon" target="_blank" aria-label="LinkedIn"></a>
+                </div>
+            </div>   
+        </nav>
+    </header>
+
+    <main>
+        <section class="about-section">
+            <div class="about-content">
+                <h2>Who are we?</h2>
+                <p>Hey there, I'm Gerson Oliveira, the founder of D'Oliveiras CNC Machining, a budding woodworking venture nestled in the vibrant city of Porto, Portugal. At 30, I'm excited to embark on my second entrepreneurial journey, building on the success of my first venture, YouRack.</p>
+                <p>From an early age, I've been drawn to creating with my hands. Woodworking quickly became my passion—a craft that allows me to transform raw materials into functional works of art. My love for woodworking is deeply rooted in my lifelong connection to surf and skate culture. As an avid surfer and former surf instructor, and a passionate skateboarder, these pursuits have always fueled my creativity.</p>
+                <p>D'Oliveiras CNC Machining emerged from this passion—a commitment to precision craftsmanship in woodworking and CNC machining. We specialize in crafting custom wooden pieces, from precision components to exquisite furniture and decorative items. Each creation reflects our dedication to quality, sustainability, and the enduring beauty of wood.</p>
+                <p>When I'm not in the workshop, you'll find me chasing waves along Portugal's stunning coastline or cruising through the city streets on my skateboard. These experiences in nature inspire our innovative approach at D'Oliveiras CNC Machining, where we blend traditional craftsmanship with cutting-edge technology to push the boundaries of woodworking.</p>
+                <p>Join us on this exciting journey as we carve out new possibilities and redefine craftsmanship in the digital age. Together, let's shape a future where creativity meets precision, one bespoke creation at a time.</p>
+                <p>Thank you for being a part of our story!</p>
+                <p>Warm regards,</p>
+                <p>Gerson Oliveira<br>Founder, D'Oliveiras CNC Machining</p>
+                <img src="../assets/images/gerson.jpg" alt="Gerson Olivera" class="profile-image">
+            </section>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 D'Oliveiras CNC Machining. All rights reserved.</p>
+        <p><a href="../page/Contacts.html">Contact Us</a></p>
+    </footer>
+
     <script src="../js/script.js"></script>
 </body>
 </html>
