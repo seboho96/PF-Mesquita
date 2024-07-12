@@ -141,12 +141,12 @@ main {
   padding: 40px 20px;
   background-color: #ffffff;
   margin: 20px auto;
-  max-width: 800px;
+  max-width: 1000px;
   border-radius: 10px;
   box-shadow: 0 2px 5px $menu-box-shadow;
 
   h1 {
-    text-align: center;
+    text-align: left;
     color: $primary-color;
     margin-bottom: 20px;
     font-size: 2em;
@@ -433,4 +433,38 @@ footer {
   footer {
     margin-top: 30%;
   }
+
+  .message-box {
+    padding: 5px;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+
+  #services-intro {
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 100%;
+    h1 {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1em;
+      line-height: 1.4;
+    }
+  }
+
+  .carousel {
+    max-width: 100%;
+    .carousel-slide {
+      height: 300px; /* Adjust height for smaller screens */
+    }
+    .carousel-prev,
+    .carousel-next {
+      padding: 5px;
+    }
+  }
 }
+
