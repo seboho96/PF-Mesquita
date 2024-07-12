@@ -3,12 +3,18 @@
 <head> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services</title>
+    <title>Our Services - D'Oliveiras CNC Machinings</title>
+    <meta name="description" content="Discover the wide range of CNC machining services offered by D'Oliveiras. From custom furniture crafting to precision machining, we cover it all.">
+    <meta name="keywords" content="CNC Machining, custom furniture, precision machining, custom design, furniture crafting">
+    <meta name="author" content="Gerson Oliveira">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://seboho96.github.io/PreEntrega3Mesquita/page/Services.html">
     <link rel="stylesheet" href="../css/style.css">
 </head>
+<body>
 <header>
     <nav class="menu">
-        <button class="menu-toggle" aria-label="Toggle menu" role="button" tabindex="0" onclick={myfunction()}>&#9776</button> 
+        <button class="menu-toggle" aria-label="Toggle menu" role="button" tabindex="0" onclick="myfunction()">&#9776</button> 
         <div class="menu-items-desktop">
             <div class="home-link"><a href="../index.html" aria-label="Home">Home</a></div>
             <div class="services-link"><a href="./Services.html" aria-label="Services">Services</a></div>
@@ -26,7 +32,23 @@
         </div>   
     </nav>
 </header>
-<body>
-    <script src="../js/script.js"></script>
+<main>
+    <section id="services-intro">
+        <h1>Our Services</h1>
+        <p>At D'Oliveiras CNC Machinings, we specialize in providing a wide range of services to meet your unique needs. Our services include custom furniture crafting, precision machining, and custom design services. Whether you need a bespoke piece of furniture or high-precision components, our team of experts is here to deliver high-quality solutions tailored to your specifications.</p>
+    </section>
+</main>
+ <!-- Carousel Section -->
+ <section id="services-carousel" class="carousel">
+    <div class="carousel-container">
+        <div class="carousel-slide" style="background-image: url('../assets/images/pexels-emrecan-2079449.jpg');"></div>
+        <div class="carousel-slide" style="background-image: url('../assets/images/pexels-fariphotography-803975.jpg');"></div>
+        <div class="carousel-slide" style="background-image: url('../assets/images/pexels-percivalianmuico-2835547.jpg');"></div>
+        <!-- Add more slides as needed -->
+    </div>
+    <button class="carousel-prev" aria-label="Previous slide" onclick=plusSlides(-1)>&#10094;</button>
+    <button class="carousel-next" aria-label="Next slide" onclick=plusSlides(1)>&#10095;</button>
+</section>
+<script src="../js/script.js"></script>
 </body>
 </html>
