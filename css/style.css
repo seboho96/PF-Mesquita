@@ -258,17 +258,19 @@ footer a:hover {
 .form-title {
   text-align: center;
   margin-top: 80px;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
   padding: 30px;
 }
 
 /* Contact Form */
 #contact-form {
-  max-width: 400px;
+  max-width: 470px;
   margin: auto;
   padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  background-color: white;
+  border-color: lightsteelblue;
 }
 #contact-form .form-group {
   margin-bottom: 20px;
