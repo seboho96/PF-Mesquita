@@ -222,19 +222,19 @@ main {
   font-weight: bold;
 }
 .furniture-item.chair {
-  background-image: url("../images/chairs.jpg");
+  background-image: url("../assets/images/chairs.jpg");
 }
 .furniture-item.table {
-  background-image: url("../images/tables.jpg");
+  background-image: url("../assets/images/tables.jpg");
 }
 .furniture-item.closet {
-  background-image: url("../images/closet.jpg");
+  background-image: url("../assets/images/closet.jpg");
 }
 .furniture-item.frame {
-  background-image: url("../images/frames.jpg");
+  background-image: url("../assets/images/frames.jpg");
 }
 .furniture-item.desk {
-  background-image: url("../images/desks.jpg");
+  background-image: url("../assets/images/desks.jpg");
 }
 
 /* Footer */
